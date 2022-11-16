@@ -5,7 +5,7 @@ provider "aws" {
 
 //S3 bucket
 resource "aws_s3_bucket" "enterprise_backend_state" {
-    bucket = "dev-applications-backend-state-in28minutes-abc"
+    bucket = "dev-applications-backend-state-naveenmatam7-abc"
 
     lifecycle {
         prevent_destroy = true

@@ -5,7 +5,7 @@ provider "aws" {
 
 # plan - execute 
 resource "aws_s3_bucket" "my_s3_bucket" {
-    bucket = "my-s3-bucket-in28minutes-rangak-002"
+    bucket = "my-s3-bucket-naveenmatam7-naveen-002"
     versioning {
         enabled = true
     }

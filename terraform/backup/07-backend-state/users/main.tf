@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "dev-applications-backend-state-in28minutes-abc"
+        bucket = "dev-applications-backend-state-naveenmatam7-abc"
         #key = "07-backend-state-users-dev"
         key = "dev/07-backend-state/users/backend-state"
         region = "us-east-1"
