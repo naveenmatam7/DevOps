@@ -31,7 +31,7 @@ spec:
         app: hello-world-rest-api
     spec:
       containers:
-      - image: in28min/hello-world-rest-api:0.0.1.RELEASE
+      - image: rjnavin/hello-world-rest-api:0.0.1.RELEASE
         imagePullPolicy: IfNotPresent
         name: hello-world-rest-api
         resources: {}
